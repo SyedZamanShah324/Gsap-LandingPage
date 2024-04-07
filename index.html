@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        text-decoration: none;
+       padding: 0,5px ;
+    }
+ 
+h1{
+   font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10px;
+    }
+    ul{
+        display: flex;
+        font-size: 22px;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        gap: 40px;
+        margin-right: 10px;
+    }
+    li{
+        gap: 5px;
+    }
+    li a{
+        text-decoration: none;
+        color: black;
+       
+    }
+    .hero h1{
+        z-index: 100;
+    }
+    a{
+        text-decoration: none;
+        gap: 80px;
+
+    }
+    button{
+        height: 40px;
+        width: 110px;
+        color: black;
+        border-radius: 40px;
+        background-color: transparent;
+    }
+    .hero{
+        height: 200px;
+        width: 900px;
+     margin-top: 160px;
+     margin-left: 240px;
+     display: flex;
+     justify-content: center;
+
+     text-align: center;
+     z-index: 100;
+     font-size: 35px;
+    }
+    .box1{
+        height: 400px;
+        position: absolute;
+        top: 120px;
+        left: 60px;
+        width: 250px;
+        background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-75.jpg?w=1200&h=1731&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631017685&s=333b9abfa858cf7b8685e28a597dfa08);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+
+    }
+    .box2{
+        height: 270px;
+        position: absolute;
+        top: 340px;
+        right:160px ;
+        width: 270px;
+        background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-81.jpg?w=1200&h=1200&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631005177&s=21e4c0bb5ce83f57e69f404637d61265);
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 0;
+      
+
+    }    .box3{
+        height: 220px;
+        position:absolute;
+        top: 130px;
+        left: 750px;
+        width:300px;
+        background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-23.jpg?w=1200&h=1008&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631003343&s=88354e145206a527c989b49f760a89d3);
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 0;
+     
+
+    }
+
+
+   </style>
+</head>
+<body>
+   <div class="nav">
+        <h1>This is Digital</h1>
+        <nav-2>
+            <ul>
+                <li><a href="">Services</a></li>
+                <li><a href="">Work</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Culture</a></li>
+                <li> <a href="">Career</a></li>
+                <li><button>Contact us</button></li>
+            </ul>
+        </nav-2>
+    </div>
+
+    <div class="hero">    <h1>Digital Performance Sollution</h1>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js" integrity="sha512-7Au1ULjlT8PP1Ygs6mDZh9NuQD0A5prSrAUiPHMXpU6g3UMd8qesVnhug5X4RoDr35x5upNpx0A6Sisz1LSTXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
